@@ -1,0 +1,25 @@
+package second;
+
+import java.util.Scanner;
+
+public class powernum {
+	
+	public static void main (String[] args){
+		
+		Scanner exponent = new Scanner(System.in);
+		Scanner base = new Scanner(System.in);
+		System.out.println("enter num:");
+		
+		double power  = base.nextDouble();
+		double  expo = exponent.nextDouble();
+		
+		while(expo!=0){
+		 power * = expo;
+		}
+		
+		  
+	
+	
+	}
+
+}
